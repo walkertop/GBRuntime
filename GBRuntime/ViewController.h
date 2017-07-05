@@ -17,6 +17,7 @@
 @interface ViewController : UIViewController<CustomDelegate>
 
 @property(nonatomic, copy) NSString *publicName;
+
 - (void) instanceMethod;
 + (void) classMethod;
 
